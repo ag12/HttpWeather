@@ -14,6 +14,14 @@
 		1A55CB801B0D066C00C87F73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A55CB7F1B0D066C00C87F73 /* Images.xcassets */; };
 		1A55CB831B0D066C00C87F73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A55CB811B0D066C00C87F73 /* LaunchScreen.xib */; };
 		1A55CB8F1B0D066C00C87F73 /* HttpWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55CB8E1B0D066C00C87F73 /* HttpWeatherTests.m */; };
+		1A55CBA21B0D083400C87F73 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A55CBA11B0D083400C87F73 /* InterfaceController.m */; };
+		1A55CBA41B0D083400C87F73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A55CBA31B0D083400C87F73 /* Images.xcassets */; };
+		1A55CBA81B0D083400C87F73 /* HttpWeather WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1A55CBA71B0D083400C87F73 /* HttpWeather WatchKit App.app */; };
+		1A55CBB01B0D083400C87F73 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A55CBAE1B0D083400C87F73 /* Interface.storyboard */; };
+		1A55CBB21B0D083400C87F73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A55CBB11B0D083400C87F73 /* Images.xcassets */; };
+		1A55CBB51B0D083400C87F73 /* HttpWeather WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1A55CB9C1B0D083400C87F73 /* HttpWeather WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		78BCA54F1BF428CB970A7AE0 /* libPods-HttpWeather.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB8FEE3340E7A9C868FE899 /* libPods-HttpWeather.a */; };
+		FFC2492E84751E0AAFB54F19 /* libPods-HttpWeatherTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AD33258D1A9FE6BAD7AB26 /* libPods-HttpWeatherTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +32,38 @@
 			remoteGlobalIDString = 1A55CB6E1B0D066C00C87F73;
 			remoteInfo = HttpWeather;
 		};
+		1A55CBA91B0D083400C87F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A55CB671B0D066C00C87F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A55CBA61B0D083400C87F73;
+			remoteInfo = "HttpWeather WatchKit App";
+		};
+		1A55CBB31B0D083400C87F73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A55CB671B0D066C00C87F73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A55CB9B1B0D083400C87F73;
+			remoteInfo = "HttpWeather WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1A55CBBC1B0D083400C87F73 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1A55CBB51B0D083400C87F73 /* HttpWeather WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0C1B44F3AA1664DB3743B8C8 /* Pods-HttpWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-HttpWeather/Pods-HttpWeather.release.xcconfig"; sourceTree = "<group>"; };
 		1A55CB6F1B0D066C00C87F73 /* HttpWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A55CB731B0D066C00C87F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A55CB741B0D066C00C87F73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +77,20 @@
 		1A55CB881B0D066C00C87F73 /* HttpWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A55CB8D1B0D066C00C87F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A55CB8E1B0D066C00C87F73 /* HttpWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpWeatherTests.m; sourceTree = "<group>"; };
+		1A55CB9C1B0D083400C87F73 /* HttpWeather WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HttpWeather WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A55CB9F1B0D083400C87F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A55CBA01B0D083400C87F73 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		1A55CBA11B0D083400C87F73 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		1A55CBA31B0D083400C87F73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1A55CBA71B0D083400C87F73 /* HttpWeather WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HttpWeather WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A55CBAD1B0D083400C87F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A55CBAF1B0D083400C87F73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1A55CBB11B0D083400C87F73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FBC7F849EA5F92A43572F5E /* Pods-HttpWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HttpWeather/Pods-HttpWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		86DABC05DB4B00D83CF55B6E /* Pods-HttpWeatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpWeatherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HttpWeatherTests/Pods-HttpWeatherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3AD33258D1A9FE6BAD7AB26 /* libPods-HttpWeatherTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HttpWeatherTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB8FEE3340E7A9C868FE899 /* libPods-HttpWeather.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HttpWeather.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F379A9AB95AB668B06901007 /* Pods-HttpWeatherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HttpWeatherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HttpWeatherTests/Pods-HttpWeatherTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +98,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78BCA54F1BF428CB970A7AE0 /* libPods-HttpWeather.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1A55CB851B0D066C00C87F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC2492E84751E0AAFB54F19 /* libPods-HttpWeatherTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A55CB991B0D083400C87F73 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,12 +120,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1528FBE114021BDE0B9EA305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC7F849EA5F92A43572F5E /* Pods-HttpWeather.debug.xcconfig */,
+				0C1B44F3AA1664DB3743B8C8 /* Pods-HttpWeather.release.xcconfig */,
+				86DABC05DB4B00D83CF55B6E /* Pods-HttpWeatherTests.debug.xcconfig */,
+				F379A9AB95AB668B06901007 /* Pods-HttpWeatherTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1A55CB661B0D066C00C87F73 = {
 			isa = PBXGroup;
 			children = (
 				1A55CB711B0D066C00C87F73 /* HttpWeather */,
 				1A55CB8B1B0D066C00C87F73 /* HttpWeatherTests */,
+				1A55CB9D1B0D083400C87F73 /* HttpWeather WatchKit Extension */,
+				1A55CBAB1B0D083400C87F73 /* HttpWeather WatchKit App */,
 				1A55CB701B0D066C00C87F73 /* Products */,
+				1528FBE114021BDE0B9EA305 /* Pods */,
+				E0A9784022692C44726A9251 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +149,8 @@
 			children = (
 				1A55CB6F1B0D066C00C87F73 /* HttpWeather.app */,
 				1A55CB881B0D066C00C87F73 /* HttpWeatherTests.xctest */,
+				1A55CB9C1B0D083400C87F73 /* HttpWeather WatchKit Extension.appex */,
+				1A55CBA71B0D083400C87F73 /* HttpWeather WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +196,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1A55CB9D1B0D083400C87F73 /* HttpWeather WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A55CBA01B0D083400C87F73 /* InterfaceController.h */,
+				1A55CBA11B0D083400C87F73 /* InterfaceController.m */,
+				1A55CBA31B0D083400C87F73 /* Images.xcassets */,
+				1A55CB9E1B0D083400C87F73 /* Supporting Files */,
+			);
+			path = "HttpWeather WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1A55CB9E1B0D083400C87F73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A55CB9F1B0D083400C87F73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A55CBAB1B0D083400C87F73 /* HttpWeather WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1A55CBAE1B0D083400C87F73 /* Interface.storyboard */,
+				1A55CBB11B0D083400C87F73 /* Images.xcassets */,
+				1A55CBAC1B0D083400C87F73 /* Supporting Files */,
+			);
+			path = "HttpWeather WatchKit App";
+			sourceTree = "<group>";
+		};
+		1A55CBAC1B0D083400C87F73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A55CBAD1B0D083400C87F73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0A9784022692C44726A9251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFB8FEE3340E7A9C868FE899 /* libPods-HttpWeather.a */,
+				A3AD33258D1A9FE6BAD7AB26 /* libPods-HttpWeatherTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,13 +249,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A55CB921B0D066C00C87F73 /* Build configuration list for PBXNativeTarget "HttpWeather" */;
 			buildPhases = (
+				21675B7B78E6630B53C7721C /* Check Pods Manifest.lock */,
 				1A55CB6B1B0D066C00C87F73 /* Sources */,
 				1A55CB6C1B0D066C00C87F73 /* Frameworks */,
 				1A55CB6D1B0D066C00C87F73 /* Resources */,
+				7B237E5C6F9E1F03EBC5EBD4 /* Copy Pods Resources */,
+				1A55CBBC1B0D083400C87F73 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1A55CBB41B0D083400C87F73 /* PBXTargetDependency */,
 			);
 			name = HttpWeather;
 			productName = HttpWeather;
@@ -143,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A55CB951B0D066C00C87F73 /* Build configuration list for PBXNativeTarget "HttpWeatherTests" */;
 			buildPhases = (
+				93A2A560C94E3D5DE9DC622E /* Check Pods Manifest.lock */,
 				1A55CB841B0D066C00C87F73 /* Sources */,
 				1A55CB851B0D066C00C87F73 /* Frameworks */,
 				1A55CB861B0D066C00C87F73 /* Resources */,
+				2FE08D59BB9903383FDBF6EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +285,39 @@
 			productName = HttpWeatherTests;
 			productReference = 1A55CB881B0D066C00C87F73 /* HttpWeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A55CB9B1B0D083400C87F73 /* HttpWeather WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A55CBBB1B0D083400C87F73 /* Build configuration list for PBXNativeTarget "HttpWeather WatchKit Extension" */;
+			buildPhases = (
+				1A55CB981B0D083400C87F73 /* Sources */,
+				1A55CB991B0D083400C87F73 /* Frameworks */,
+				1A55CB9A1B0D083400C87F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A55CBAA1B0D083400C87F73 /* PBXTargetDependency */,
+			);
+			name = "HttpWeather WatchKit Extension";
+			productName = "HttpWeather WatchKit Extension";
+			productReference = 1A55CB9C1B0D083400C87F73 /* HttpWeather WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1A55CBA61B0D083400C87F73 /* HttpWeather WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A55CBBA1B0D083400C87F73 /* Build configuration list for PBXNativeTarget "HttpWeather WatchKit App" */;
+			buildPhases = (
+				1A55CBA51B0D083400C87F73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HttpWeather WatchKit App";
+			productName = "HttpWeather WatchKit App";
+			productReference = 1A55CBA71B0D083400C87F73 /* HttpWeather WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
 		};
 /* End PBXNativeTarget section */
 
@@ -172,6 +334,12 @@
 					1A55CB871B0D066C00C87F73 = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 1A55CB6E1B0D066C00C87F73;
+					};
+					1A55CB9B1B0D083400C87F73 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1A55CBA61B0D083400C87F73 = {
+						CreatedOnToolsVersion = 6.4;
 					};
 				};
 			};
@@ -190,6 +358,8 @@
 			targets = (
 				1A55CB6E1B0D066C00C87F73 /* HttpWeather */,
 				1A55CB871B0D066C00C87F73 /* HttpWeatherTests */,
+				1A55CB9B1B0D083400C87F73 /* HttpWeather WatchKit Extension */,
+				1A55CBA61B0D083400C87F73 /* HttpWeather WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -212,7 +382,88 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A55CB9A1B0D083400C87F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A55CBA41B0D083400C87F73 /* Images.xcassets in Resources */,
+				1A55CBA81B0D083400C87F73 /* HttpWeather WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A55CBA51B0D083400C87F73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A55CBB01B0D083400C87F73 /* Interface.storyboard in Resources */,
+				1A55CBB21B0D083400C87F73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21675B7B78E6630B53C7721C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FE08D59BB9903383FDBF6EA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpWeatherTests/Pods-HttpWeatherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B237E5C6F9E1F03EBC5EBD4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HttpWeather/Pods-HttpWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A2A560C94E3D5DE9DC622E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A55CB6B1B0D066C00C87F73 /* Sources */ = {
@@ -233,6 +484,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A55CB981B0D083400C87F73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A55CBA21B0D083400C87F73 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +499,16 @@
 			isa = PBXTargetDependency;
 			target = 1A55CB6E1B0D066C00C87F73 /* HttpWeather */;
 			targetProxy = 1A55CB891B0D066C00C87F73 /* PBXContainerItemProxy */;
+		};
+		1A55CBAA1B0D083400C87F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A55CBA61B0D083400C87F73 /* HttpWeather WatchKit App */;
+			targetProxy = 1A55CBA91B0D083400C87F73 /* PBXContainerItemProxy */;
+		};
+		1A55CBB41B0D083400C87F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A55CB9B1B0D083400C87F73 /* HttpWeather WatchKit Extension */;
+			targetProxy = 1A55CBB31B0D083400C87F73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +527,14 @@
 				1A55CB821B0D066C00C87F73 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1A55CBAE1B0D083400C87F73 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A55CBAF1B0D083400C87F73 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,6 +622,7 @@
 		};
 		1A55CB931B0D066C00C87F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FBC7F849EA5F92A43572F5E /* Pods-HttpWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HttpWeather/Info.plist;
@@ -355,6 +633,7 @@
 		};
 		1A55CB941B0D066C00C87F73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1B44F3AA1664DB3743B8C8 /* Pods-HttpWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HttpWeather/Info.plist;
@@ -365,6 +644,7 @@
 		};
 		1A55CB961B0D066C00C87F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86DABC05DB4B00D83CF55B6E /* Pods-HttpWeatherTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -384,6 +664,7 @@
 		};
 		1A55CB971B0D066C00C87F73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F379A9AB95AB668B06901007 /* Pods-HttpWeatherTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -394,6 +675,62 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HttpWeather.app/HttpWeather";
+			};
+			name = Release;
+		};
+		1A55CBB61B0D083400C87F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HttpWeather WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1A55CBB71B0D083400C87F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "HttpWeather WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1A55CBB81B0D083400C87F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HttpWeather_WatchKit_Extension;
+				INFOPLIST_FILE = "HttpWeather WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1A55CBB91B0D083400C87F73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = HttpWeather_WatchKit_Extension;
+				INFOPLIST_FILE = "HttpWeather WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
 			};
 			name = Release;
 		};
@@ -416,12 +753,30 @@
 				1A55CB941B0D066C00C87F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A55CB951B0D066C00C87F73 /* Build configuration list for PBXNativeTarget "HttpWeatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1A55CB961B0D066C00C87F73 /* Debug */,
 				1A55CB971B0D066C00C87F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A55CBBA1B0D083400C87F73 /* Build configuration list for PBXNativeTarget "HttpWeather WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A55CBB81B0D083400C87F73 /* Debug */,
+				1A55CBB91B0D083400C87F73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A55CBBB1B0D083400C87F73 /* Build configuration list for PBXNativeTarget "HttpWeather WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A55CBB61B0D083400C87F73 /* Debug */,
+				1A55CBB71B0D083400C87F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
